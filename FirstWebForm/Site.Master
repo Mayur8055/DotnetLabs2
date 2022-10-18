@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FirstWebForm.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>KPMG MASTER </title>
+    </head>
+    <body>
+        <h1>KPMG INTRANET</h1>
+        <hr />
+        <div>
+            <header>
+            <a href="Login.aspx">Login</a> <span> | </span>
+            <a href="DashBoard.aspx">DashBoard</a>
+            </header>
+
+            <asp:ContentPlaceHolder ID="Pages" runat="server"></asp:ContentPlaceHolder>
+
+
+
+            <footer>
+                <b>© All rights are reserved by KPMG</b>
+            </footer>
+        </div>
+    </body>
+</html>
